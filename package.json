@@ -1,0 +1,16 @@
+{
+  "name": "npm-keywords",
+  "version": "1.0.0",
+  "description": "Queries a list of multiple npm keywords",
+  "main": "index.js",
+  "keywords": [
+    "npm",
+    "keywords"
+  ],
+  "author": "greenify",
+  "license": "GPLv3",
+  "dependencies": {
+    "bluebird": "^2.3.11",
+    "npm-registry": "^0.1.11"
+  }
+}
