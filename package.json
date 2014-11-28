@@ -10,7 +10,7 @@
   "registry": {
     "type": "git",
     "url": "git://github.com/greenify/npm-keywords"
-  }
+  },
   "author": "greenify",
   "license": "GPLv3",
   "dependencies": {
