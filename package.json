@@ -1,6 +1,6 @@
 {
   "name": "npm-keywords",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Queries a list of multiple npm keywords",
   "main": "index.js",
   "keywords": [
