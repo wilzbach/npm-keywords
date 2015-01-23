@@ -3,7 +3,7 @@ var q = require('bluebird');
 
 var workmen = function(keywords,npm){
   if(this.constructor != workmen){
-    return new workmen(keywords);
+    return new workmen(keywords, npm);
   }
   if(npm == undefined){
     npm = new registry();
