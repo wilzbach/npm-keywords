@@ -2,20 +2,19 @@ var registry = require("npm-registry");
 var q = require('bluebird');
 
 var workmen = function(keywords,npm){
-  if(this.constructor != workmen){
+  if(this.constructor !== workmen){
     return new workmen(keywords, npm);
   }
   if(npm == undefined){
     npm = new registry();
   }
   this.keywords = keywords;
-  self = this;
   return load(npm,keywords);
-}
+};
 
 // downloads all packages found for the defined keywords
 function load(npm,keywords){
-  pkgs = [];
+  var pkgs = [];
 
   function downloadKeys(keyword){
     return new q.Promise(function(resolve,reject){
